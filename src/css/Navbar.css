@@ -1,0 +1,156 @@
+.top-header {
+    background-color: #ae946d;
+    height: 40px;
+    text-align: center;
+    color: white;
+}
+.top-header p {
+    padding: 10px 0;
+    font-size: 12px;
+}
+.mid-header{
+    background-image: url(../img/mid.jpg);
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    padding: 10px 10px;
+    
+}
+.mid-header span {
+    text-align: justify;
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+
+}
+.span2 span {
+    font-size: 40px;
+}
+.NavbarItem {
+    background-color: #181818;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+.name-Sport {
+    margin: 0 70px;
+    font-size: 19px;
+    width: 200px;
+    
+}
+
+.name-Sport img {
+    height:60px;
+    
+}
+.name-Sport span a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+} 
+.nav-menu {
+    
+    width: 85vw;
+    list-style: none;
+    text-align: center;
+    justify-content: end;
+    /* text-decoration: none; */
+    /* height: 20px; */
+}
+/* .nav-menu ul {
+    display: flex;
+} */
+.nav-menu .menu-title {
+    display: flex;
+}
+.nav-menu .menu-title li{
+    padding: 20px 30px 0 30px;
+    display: block;
+    height: 50px;
+    font-size: 16px;
+    
+}
+.nav-menu .menu-title li {
+    color: white;
+    z-index: 1;
+    font-weight: 600;
+}
+.nav-menu .menu-title li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-menu .drop-down {
+    display: none;
+    height: 200px;
+    background-color: #181818;
+}
+
+.nav-menu .drop-down li a {
+   color: #fff;
+}
+.nav-menu .menu-title li:hover .drop-down{
+    display: block;
+}
+
+
+
+
+.nav-icon{
+    list-style: none;
+    text-align: center;
+    justify-content: end;
+}
+.nav-icon ul{
+    display: flex;
+}
+.nav-icon li {
+    padding: 21px 10px 0 40px;
+    display: block;
+    height: 50px;
+    font-size: 16px;
+}
+.nav-icon li a {
+    text-decoration: none;
+}
+.nav-icon li i{
+    color: white;
+    font-size: 17px;
+}
+.user-login {
+    color: white;
+}
+.search input {
+    width: 280px;
+    height: 50px;
+    border: 1px solid rgb(118, 118, 118);
+    background-color: #181818;
+    outline: none;
+    color: #fff;
+}
+.fa-search{
+    color: #fff;
+    margin: 10px 5px;
+}
+.btn-search {
+    background-color: #181818;
+    outline: none;
+    border: none;
+
+}
+.logout {
+  
+    display: none;
+}
+.logout ul {
+    display: block;
+}
+.btn-avt {
+    border: none;
+    background: none;
+}
+.avt {
+    position: relative;
+    top: -15px;
+}

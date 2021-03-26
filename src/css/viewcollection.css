@@ -1,0 +1,15 @@
+.viewCollection table{
+    width: 100%;
+    height: auto;
+}
+.Content-view {
+    width: 700px;
+    padding: 0px 50px;
+}
+.Content-view h2 {
+    font-weight: 600;
+    font-size: 40px;
+}
+.Content-view p {
+    text-align: justify;
+}
